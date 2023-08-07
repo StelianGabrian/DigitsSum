@@ -5,7 +5,7 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        // put your code here to calculate the of the three digits of a number
+        // put your code here to calculate the sum of the three digits of a number
 
         String number = scanner.nextLine();
         int digit1 = Integer.parseInt(number.substring(0,1));
