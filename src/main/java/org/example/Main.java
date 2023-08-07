@@ -12,5 +12,6 @@ class Main {
         int digit2 = Integer.parseInt(number.substring(1,2));
         int digit3 = Integer.parseInt(number.substring(2,3));
         System.out.println(digit1+digit2+digit3);
+
     }
 }
